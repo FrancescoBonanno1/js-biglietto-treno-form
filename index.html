@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TramItalia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Acquista il tuo biglietto, viaggiatore!</h1>
+
+    <div id="topform">
+        <div class="card">
+            <p>Nome e Cognome</p>
+            <input id="recognition" type="text">
+        </div>
+
+        <div class="card">
+            <p>inserire distanza da percorrere</p>
+            <input id="lenght" type="text">
+        </div>
+
+        <div class="card">
+            <p>Nome e Cognome</p>
+            <select name="ageselect" id="agelist">
+                <option id="minore" value="minorenne">Minorenne</option>
+                <option id="maggiore" value="maggiorenne">Maggiorenne</option>
+                <option id="vecchio" value="over65">Over 65</option>
+            </select> 
+        </div>
+
+        <button id="proceed"> Genera </button>
+        <button id="clear"> Annulla </button>
+    </div>
+
+    <h2 id="result"></h2>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
